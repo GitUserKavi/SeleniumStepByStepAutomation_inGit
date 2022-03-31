@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="2">
+<listeners >
+<listener class-name="testNG.ListenersExample">
+</listener>
+</listeners>
+<test name="Test Cases">
+<classes>
+<class name="testNG.SampleTestCase"></class>
+</classes>
+</test>
+</suite>
+
+<!-- 1. When will we need this kind of Parallel testing?
+2. How TestNG allows us to achieve this parallel testing?
+3. Executing test cases parallelly using TestNG. -->
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="2">
+<test name="Test Cases">
+<classes>
+<class name="testNG.ParallelTesting"></class>
+</classes>
+</test>
+</suite> -->
+
+
+<!-- 1. What is Parameterization
+2. How TestNG supports Parameterization
+3. How to send test data from XML to test cases. -->
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+<test name="Test Cases">
+<parameter name="Name" value="Duck"></parameter>
+<classes>
+<class name="testNG.ParameterizationExample"></class>
+</classes>
+</test>
+</suite>
+ -->
+
+<!-- 1. What is grouping?
+2. Why Grouping is important?
+3. How to group our test cases using TestNG
+4. How to execute a specific group in TestNG?
+5. How to include a group to the execute?
+6. How to exclude a group from the execution? -->
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+<test name="Test Cases">
+<groups>
+<run>
+<include name="VIVO"></include>
+<include name="Moto"></include>
+</run>
+</groups>
+<classes>
+<class name="testNG.GroupingExample"></class>
+</classes>
+</test>
+</suite>
+ -->
+
+
+
+
+<!-- 1. How to write a test suite in TestNG with TestNG.xml file?
+2. How to create an XML file for your testng project?
+3. Why should we use testng.xml file and why it is recommended? -->
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+<test name="Test Cases">
+<classes>
+<class name="testNG.DependenciesManagement"></class>
+<class name="testNG.PrioritingDriverTestCase"></class>
+<class name="testNG.SampleTestCase"></class>
+<class name="testNG.SkipATestCase"></class>
+</classes>
+</test>
+</suite> -->

@@ -1,0 +1,4 @@
+2022-03-14 12:23:21,967 INFO  [Log4jXmlConfigurator] - This is a info 
+2022-03-14 12:23:21,970 WARN  [Log4jXmlConfigurator] - This is a warning 
+2022-03-14 12:23:21,970 ERROR [Log4jXmlConfigurator] - This is a Error 
+2022-03-14 12:23:21,970 FATAL [Log4jXmlConfigurator] - This is a fatel k
